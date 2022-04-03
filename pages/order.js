@@ -1,9 +1,9 @@
 import Header from '../components/header';
 import { Fragment, useState, useMemo } from 'react';
-import Head from 'next/head'
+import Head from 'next/head';
 
 
-const formatter = Intl.NumberFormat('ko-KR')
+const formatter = Intl.NumberFormat('ko-KR');
 
 const menuData = [
     {
@@ -106,7 +106,7 @@ export default function Order() {
                 <button 
                     className='btn btn-primary btn-lg'
                     onClick={() => {
-                        confirm(`주문 합계는 ${formatter.format(sum)}원 입니다. 주문하시겠습니까?`)
+                        confirm(`주문 합계는 ${formatter.format(sum)}원 입니다. 주문하시겠습니까?`);
                     }}>
                         주문하기
                 </button>

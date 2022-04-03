@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
         <link href='/style.css' rel='stylesheet'/>
     </Head>
     <Component {...pageProps} />
-  </div>
-}
+  </div>;
+};
 
 export default MyApp

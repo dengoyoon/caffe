@@ -1,8 +1,5 @@
-import Link from 'next/link'
 import Header from '../components/header'
 import Head from 'next/head'
-
-
 
 export default function Introduce() {
     return (
@@ -16,5 +13,5 @@ export default function Introduce() {
                 Caffe 서비스를 이용해서, 온라인으로 주문하고 편하게 현장에서 수령하세요!
             </p>
         </div>
-    )
-}
+    );
+};
