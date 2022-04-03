@@ -1,8 +1,5 @@
-import Link from 'next/link'
-import Header from '../components/header'
-import Head from 'next/head'
-
-
+import Header from '../components/header';
+import Head from 'next/head';
 
 export default function Hiring() {
     return (

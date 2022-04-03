@@ -1,7 +1,5 @@
-import '../styles/globals.css'
-import Head from 'next/head'
-import Header from '../components/header'
-
+import '../styles/globals.css';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
   return <div className='container'>
