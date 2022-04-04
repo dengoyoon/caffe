@@ -1,4 +1,4 @@
-import Header from '../components/header';
+import Header from '../components/header.js';
 import { useState } from 'react';
 import Head from 'next/head';
 
